@@ -78,6 +78,17 @@
   transition: opacity 1s cubic-bezier(0.2, 1, 0.3, 1);
 }
 
+.text a{
+  color: #fff;
+  background: #5f2c0f;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.text > a{
+  margin-right: 10px;
+}
+
 @media(max-width:1100px) {
   .all-projects {
     grid-template-columns: repeat(2,1fr);

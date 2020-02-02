@@ -204,6 +204,26 @@ a {
   border-left: 2px solid #0f9b71;
 }
 
+/* Skills Section */
+.skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.skills figure {
+  margin-right: 15px;
+  margin-bottom: 50px;
+}
+
+.skills figure figcaption {
+  text-align: center;
+}
+
+.skills figure img {
+  width: 150px;
+}
 
 
 
