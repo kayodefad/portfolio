@@ -204,6 +204,10 @@ a {
   color: #fff;
 }
 
+.txt-type > .txt {
+  border-right: 0.2rem solid rgb(194, 188, 188);
+}
+
 .showcase-content {
   width: 40vw;
   font-size: 2rem;
