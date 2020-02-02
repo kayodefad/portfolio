@@ -24,11 +24,11 @@
     <div class="border-line"></div>
     <div id="menu-container">
       <ul>
-        <li><a href="#"><i style="color: #919e9a;" class="fas fa-user"></i>About</a></li>
-        <li><a href="#"><i style="color: #0a036b;" class="fas fa-tasks"></i>Projects</a></li>
-        <li><a href="#"><i style="color: #63055b;" class="far fa-chart-bar"></i>Skills</a></li>
-        <li><a href="#"><i style="color: #c58104;" class="fas fa-graduation-cap"></i>Education</a></li>
-        <li><a href="#"><i style="color: #5f2c0f;" class="fas fa-envelope"></i>Contact</a></li>
+        <li><a href="#about"><i style="color: #919e9a;" class="fas fa-user"></i>About</a></li>
+        <li><a href="#projects"><i style="color: #0a036b;" class="fas fa-tasks"></i>Projects</a></li>
+        <li><a href="#skills"><i style="color: #63055b;" class="far fa-chart-bar"></i>Skills</a></li>
+        <li><a href="#education"><i style="color: #c58104;" class="fas fa-graduation-cap"></i>Education</a></li>
+        <li><a href="#contact"><i style="color: #5f2c0f;" class="fas fa-envelope"></i>Contact</a></li>
         <li><a href="#"><i style="color: #747070;" class="fas fa-file-alt"></i>Resume</a></li>
       </ul>
     </div>      
@@ -38,7 +38,8 @@
     <!-- Header: Showcase -->
     <section id="showcase">
       <div class="showcase-content">
-        <div>I want to <span style="background: #0f9b71; padding: 1px 10px;">make things</span></div><div>that <span style="border-bottom: 5px solid #0f9b71;">make a difference</span></div>
+        <!-- <div>I want to <span style="background: #0f9b71; padding: 1px 10px;">make things</span></div><div>that <span style="border-bottom: 5px solid #0f9b71;">make a difference</span></div> -->
+        <div style="background: rgb(15, 155, 113, 0.7); padding: 1px 10px;"><div>Talk is cheap. </div><div><span>Show me the code.</span></div></div>        
       </div>
     </section>
   </header>
@@ -47,7 +48,7 @@
   <section class="portfolio-body">
     <!-- About -->
     <div class="about">
-      <p class="l-heading">About</p>
+      <p id="about" class="l-heading">About</p>
       <div class="objective">
         Mission-driven full stack developer with a passion for thoughtful UI design, collaboration, and teaching.
       </div>
@@ -57,8 +58,8 @@
 
     <!-- Projects -->
     <div class="projects">
-      <div class="l-heading my-4">Projects</div>
-      <div class="all-projects">
+      <div id="projects" class="l-heading my-4">Projects</div>
+      <div class="all-projects con">
         <div class="proj">
           <img src="/images/todo.png" alt="Avatar" class="image">
           <div class="overlay">
@@ -106,7 +107,7 @@
           <div class="text"><a href="https://pedantic-hypatia-314bf2.netlify.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a><a href="https://github.com/kayodefad/SmartAlaba" target="_blank"><i class="fab fa-github"></i></a></div>
           <div class="project-desc">
             <p class="proj-title">SmartAlaba</p>
-            <p class="proj-deets">Simple Landing Page. Used a hamburger menu for responsive navigation and accordion for FAQ's</p>
+            <p class="proj-deets">Simple Landing Page. Practiced use of accordion for FAQ's</p>
           </div>
         </div>
         <div class="proj">
@@ -116,14 +117,14 @@
           <div class="text"><a href="https://amazing-wozniak-249118.netlify.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a><a href="https://github.com/kayodefad/vela-frontend-test" target="_blank"><i class="fab fa-github"></i></a></div>
           <div class="project-desc">
             <p class="proj-title">Transmonitor</p>
-            <p class="proj-deets">Implemented a Figma UI design using React. Website is not responsive yet, so it's best viewed on a large screen</p>
+            <p class="proj-deets">Implemented a Figma UI design using React. View on large sreen.</p>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Skills -->
-    <div class="l-heading my-4">Skills</div>
+    <div id="skills" class="l-heading my-4">Skills</div>
     <div class="skills container">
       <figure class="skill"><img src="/images/html5.png" alt="html5"><figcaption>HTML5</figcaption></figure>
       <figure class="skill"><img src="/images/css3.png" alt="css3"><figcaption>CSS3</figcaption></figure>
@@ -138,7 +139,7 @@
     </div>
 
     <!-- Education -->
-    <div class="l-heading my-4">Education</div>
+    <div id="education" class="l-heading my-4">Education</div>
     <div class="container">
       <div class="education p-2" style="margin-bottom: 30px;">
         <div class="school">University of Ibadan</div>
@@ -150,12 +151,11 @@
     </div>
 
     <!-- Contact -->
-    <div class="l-heading my-4">Contact</div>
+    <div id="contact" class="l-heading my-4">Contact</div>
     <div class="container">
       <div class="contact">
         <div class="contact-item"><a href="mailto:fadojuk@gmail.com" target="_blank"><i class="fas fa-envelope"></i>fadojuk@gmail.com</a></div>
         <div class="contact-item"><a href="https://github.com/kayodefad" target="_blank"><i class="fab fa-github"></i></i>github.com/kayodefad</a></div>
-        <!-- <div class="contact-item"><a href="https://www.linkedin.com/in/oluwakayode-fadoju-48603167/" target="_blank"><i class="fab fa-linkedin-in"></i>linkedin.com/in/oluwakayode-fadoju-48603167</a></div> -->
         <div class="contact-item"><a href="https://twitter.com/fadojuKay" target="_blank"><i class="fab fa-twitter"></i>twitter.com/fadojuKay</a></div>
         <div class="contact-item"><a href="https://www.instagram.com/kayodefad/" target="_blank"><i class="fab fa-instagram"></i>instagram.com/kayodefad/</a></div>
       </div>

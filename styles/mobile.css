@@ -17,7 +17,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     overflow: auto;
     background: rgba(0,0,0,0.5);
@@ -25,9 +25,9 @@
 
   #navbar ul {
     height: 100%;
-    width: 185px;
+    width: 200px;
     background: #fff;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0rem;
     animation: animate-menu 0.5s;
   }
 
@@ -85,10 +85,10 @@
 }
 
 @media(max-width:720px) {
-  .l-heading {
+  /* .l-heading {
     font-size: 3rem;
     padding: 1.3rem;
-  }
+  } */
 
   .about .objective {
     font-size: 1.3rem;

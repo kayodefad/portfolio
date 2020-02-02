@@ -168,16 +168,26 @@ a {
 
 #navbar ul {
   list-style: none;
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
   background: #fff;
   height: 100vh;
 }
 
 #navbar ul li {
+  margin: 1rem 0;
   padding: 1rem 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+#navbar ul li:hover,
+#navbar ul li:active {
+  background: #f5f5f5;
+  border-left: 4px solid rgb(5, 92, 99);
 }
 
 #navbar ul li a {
+  padding: 2rem;
   color: var(--main-color);
 }
 
@@ -191,8 +201,12 @@ a {
   background: url('/images/showcase.jpg') no-repeat center center/cover;
   height: 100vh;
   padding: 1.2rem 3rem;
-  font-size: 3.5rem;
   color: #fff;
+}
+
+.showcase-content {
+  width: 38vw;
+  font-size: 3rem;
 }
 
 
@@ -272,7 +286,7 @@ a {
   background: rgb(37, 37, 37);
   color: #fff;
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 /* Media Query Figure */
@@ -281,18 +295,39 @@ a {
     width: 90px;
   }
 
-  /* .l-heading {
-    font-size: 1rem;
+  .l-heading {
+    font-size: 2rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
     text-transform: uppercase;
     color: #fff;
     background: #086161;
-    padding: 2rem;
-  } */
+    padding: 1.5rem;
+  }
 
   .my-4 {
     margin: 3rem 0;
+  }
+}
+
+@media(max-width:1055px) {
+  .showcase-content {
+    width: 38vw;
+    font-size: 2.5rem;
+  }
+}
+
+@media(max-width:887px) {
+  .showcase-content {
+    width: 38vw;
+    font-size: 2rem;
+  }
+}
+
+@media(max-width:628px) {
+  .showcase-content {
+    width: 50vw;
+    font-size: 1.3rem;
   }
 }
 
