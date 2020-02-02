@@ -225,6 +225,29 @@ a {
   width: 150px;
 }
 
+/* Education */
+.education {
+  box-shadow: 2px 2px 5px rgb(161, 163, 163);
+  height: 200px;
+}
+
+.education .school {
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+  color: #0f9b71;
+  text-transform: uppercase;
+}
+
+.education .location {
+  color: #5f2c0f;
+  margin-bottom: 1rem;
+}
+
+.education .degree {
+  margin-left: 1rem;
+}
+
+/* Media Query Figure */
 @media(max-width: 500px) {
   .skills figure img {
     width: 90px;
