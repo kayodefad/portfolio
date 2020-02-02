@@ -207,7 +207,7 @@ a {
 /* Skills Section */
 .skills {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -223,6 +223,12 @@ a {
 
 .skills figure img {
   width: 150px;
+}
+
+@media(max-width: 500px) {
+  .skills figure img {
+    width: 90px;
+  }
 }
 
 
