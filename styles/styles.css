@@ -247,12 +247,56 @@ a {
   margin-left: 1rem;
 }
 
+/* COntact */
+.contact .contact-item {
+  margin-bottom: 15px;
+}
+
+.contact .contact-item a {
+  color: #0f9b71;
+}
+
+.contact-item i {
+  color: #fff;
+  background: #5f2c0f;
+  padding: 15px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+
+/* Footer */
+.footer {
+  margin: auto;
+  padding: 15px;
+  background: rgb(37, 37, 37);
+  color: #fff;
+  text-align: center;
+  margin-top: 4rem;
+}
+
 /* Media Query Figure */
 @media(max-width: 500px) {
   .skills figure img {
     width: 90px;
   }
+
+  /* .l-heading {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: #fff;
+    background: #086161;
+    padding: 2rem;
+  } */
+
+  .my-4 {
+    margin: 3rem 0;
+  }
 }
+
+
 
 
 
