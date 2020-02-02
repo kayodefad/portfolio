@@ -1,0 +1,110 @@
+/* Media Queries for Header and Navigation Bar */
+@media(max-width: 1000px) {
+  .portfolio-body {
+    margin-left: 0;
+  }
+
+  #navbar #hamburger-menu {
+    display: block;
+    /* padding: 0.7rem 0; */
+    margin: auto;
+    position: fixed;
+    padding: 1rem 2rem;
+  }
+
+  #navbar #menu-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.5);
+  }
+
+  #navbar ul {
+    height: 100%;
+    width: 185px;
+    background: #fff;
+    padding: 0.5rem 1rem;
+    animation: animate-menu 0.5s;
+  }
+
+  /* Animation Menu */
+  @keyframes animate-menu {
+    from {transform: translateX(-100%); opacity: 0;}
+    to{transform: translateX(0); opacity: 1;}
+  }
+
+  #navbar ul li i {
+    width: 30px;
+  }
+
+  #navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    /* position: static; */
+    top: 0;
+    z-index: 1;
+    /* overflow-x: hidden; */
+    position: sticky;
+    background: #fff;
+  }
+
+  #navbar .details {
+    padding: 0.7rem;
+    margin: auto;
+    text-align: center;
+  }
+
+  #navbar .name {
+    font-size: 1.3rem;
+    margin-bottom: 3px;
+    font-weight: bold;
+  }
+
+  #navbar .role {
+    line-height: 0.8;
+  }
+
+  #navbar .border-line {
+    display: none;
+  }
+
+  #showcase {
+    margin-left: 0;
+    background: url('/images/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    padding: 1.2rem 2rem;
+    font-size: 1.3rem;
+    color: #fff;
+  }
+}
+
+@media(max-width:720px) {
+  .l-heading {
+    font-size: 3rem;
+    padding: 1.3rem;
+  }
+
+  .about .objective {
+    font-size: 1.3rem;
+    margin: 2.5rem 1.3rem 2.5rem 1.3rem;
+    padding: 0 2rem;
+    border-left: 2px solid #0f9b71;
+  }
+
+  .container {
+    margin: auto;
+    padding: 0 1.3rem;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+  }
+}
