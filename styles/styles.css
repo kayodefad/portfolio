@@ -205,8 +205,8 @@ a {
 }
 
 .showcase-content {
-  width: 38vw;
-  font-size: 2.5rem;
+  width: 40vw;
+  font-size: 2rem;
 }
 
 
@@ -324,9 +324,9 @@ a {
   }
 }
 
-@media(max-width:628px) {
+@media(max-width:670px) {
   .showcase-content {
-    width: 55vw;
+    width: 60vw;
     font-size: 1.3rem;
   }
 }
