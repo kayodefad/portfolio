@@ -223,7 +223,7 @@ a {
   font-size: 2rem;
   margin: 4rem 3.5rem 2rem 3.5rem;
   padding: 0 2rem;
-  border-left: 4px solid var(--primary-color);
+  border-left: 2px solid var(--primary-color);
 }
 
 /* Skills Section */
@@ -307,9 +307,7 @@ a {
     font-size: 2rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
-    text-transform: uppercase;
     color: #fff;
-    background: #086161;
     padding: 1.5rem;
   }
 
