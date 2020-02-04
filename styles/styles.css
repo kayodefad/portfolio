@@ -2,6 +2,7 @@
   --main-color: #747070;
   --primary-color: #0f7f9b;
   --secondary-color: #06696d;
+  --obj-color: #5f2c0f;
 }
 
 /* #086161 #0f9b71 */
@@ -59,13 +60,13 @@ a {
 }
 
 .l-heading {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 0.75rem;
   line-height: 1.1;
   text-transform: uppercase;
   color: #fff;
   background: var(--primary-color);
-  padding: 2rem;
+  padding: 1.5rem 2rem;
 }
 
 .m-heading {
@@ -75,7 +76,7 @@ a {
 }
 
 .lead {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-bottom: 2rem;
   line-height: 1.7;
 }
@@ -223,7 +224,9 @@ a {
   font-size: 2rem;
   margin: 4rem 3.5rem 2rem 3.5rem;
   padding: 0 2rem;
-  border-left: 2px solid var(--primary-color);
+  border-left: 3px solid var(--obj-color);
+  color: var(--obj-color);
+  font-weight: 500;
 }
 
 /* Skills Section */
