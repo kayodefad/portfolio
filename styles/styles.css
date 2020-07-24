@@ -294,7 +294,7 @@ a {
 .footer {
   margin: auto;
   padding: 15px;
-  background: rgb(37, 37, 37);
+  background: var(--primary-color);
   color: #fff;
   text-align: center;
   margin-top: 5rem;

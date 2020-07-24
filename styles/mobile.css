@@ -1,5 +1,5 @@
 /* Media Queries for Header and Navigation Bar */
-@media(max-width: 1000px) {
+@media(max-width: 1024px) {
   .portfolio-body {
     margin-left: 0;
   }
