@@ -191,6 +191,11 @@ a {
   border-left: 4px solid var(--primary-color);
 }
 
+.nav-active {
+  background: #f5f5f5;
+  border-left: 4px solid var(--primary-color);
+}
+
 #navbar ul li a {
   padding: 2rem;
   color: var(--main-color);
