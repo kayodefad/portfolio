@@ -92,8 +92,7 @@
 
   .about .objective {
     font-size: 1.3rem;
-    margin: 2.5rem 1.3rem 2.5rem 1.3rem;
-    padding: 0 2rem;
+    margin: 2.5rem 0 2.5rem 0;
     border-left: 2px solid var(--obj-color);
   }
 
